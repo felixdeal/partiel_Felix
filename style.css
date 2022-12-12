@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar{
+    background-color: red;
+    height: 15vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4vh;
+}
+
+.taille{
+    width: 50px;
+    height: 50px;
+}
+
+.titre{
+    color: white;
+    font-size: x-large;
+    padding-top: 10px;
+}
+
+.headpage{
+    background-image: url(15.png);
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+h1{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.225);
+    text-align: center;
+    padding: 5px;
+}
+
+.image{
+    margin-top: 50px;
+}
+
+.taille2{
+    width: 200px;
+    height: 250px;
+}
+
+.taille3{
+    width: 300px;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bouton{
+    color: white;
+    background-color: green;
+    border: 2px solid rgb(4, 87, 4);
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 20vh;
+}
+
+h2{
+    margin-left: 20px;
+}
+
+.contener{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.card {
+    width: 300px;
+    margin: 20px; 
+    border: 1px solid black;
+}
+.card a { 
+    color: #333; 
+    text-decoration: none;
+}
+
+.card-image {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.card-image img {
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-body {
+    text-align:center; 
+  padding: 15px 20px; 
+  box-sizing: border-box; 
+}
+
+.card-bouton{
+    background-color: green;
+    border: 1px solid rgb(4, 87, 4);
+    color: white;
+    padding: 5px;
+    width: fit-content;
+    display: -webkit-inline-box;
+}
+
+.chiffre{
+    background-color: rgb(216, 216, 216);
+    padding: 30px;
+}
+
+.card-nombre{
+    font-size: 80px;
+}
+
+.card-chiffre{
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;
+    background-color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 700px;
+}
+
+.confiance{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card-ent{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.card-ent p{
+    width: 200px;
+    margin-right: 20px;
+}
+
+.legende-ent{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    font-style: italic;
+}
+
+.reseaux {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.reseaux .contener{
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.certif{
+    text-align: center;
+    margin-bottom: 10px;
+}
